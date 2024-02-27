@@ -1,7 +1,7 @@
 const API_KEY = "f7da998b4b094682a80e3fc59f8cf720";
 const url = "https://newsapi.org/v2/everything?q=";
 
-window.addEventListener("load", () => fetchNews("India"));
+window.addEventListener("load", () => fetchNews("karnataka agriculture"));
 
 function reload() {
     window.location.reload();
